@@ -1,5 +1,5 @@
 ---
-title: "Learning to rebase"
+Title: "Learning to rebase"
 author: "Dea Avega Editya"
 date: "4/23/2020"
 output:
@@ -27,6 +27,7 @@ c("USA, New York",
 ) %>%
 ggplot(aes(x = date , y = confirmed, color = id)) +
 geom_line()
+
 ```
 
 ## R Markdown
